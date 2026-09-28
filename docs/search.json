@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of what I’m working on now. Most of my day-to-day work happens in the open through NOAA’s Ecosystem Dynamics and Assessment Branch (NOAA-EDAB) on GitHub."
+    "text": "A selection of what I’m working on now. I keep two GitHub accounts. My work for NOAA’s Northeast Fisheries Science Center is done under my work account, MGrezlik, and much of it lives in the Ecosystem Dynamics and Assessment Branch organization, NOAA-EDAB. This website and my personal and past research projects live on my personal account, MaxGrezlik."
   },
   {
     "objectID": "projects.html#current-work",
@@ -81,6 +81,6 @@
     "href": "index.html#hi-im-max-grezlik-fishery-data-analyst",
     "title": "Max Grezlik",
     "section": "Hi, I’m Max Grezlik — Fishery Data Analyst",
-    "text": "Hi, I’m Max Grezlik — Fishery Data Analyst\nI’m a fisheries scientist with a passion for data-driven solutions in marine conservation and resource management. My work bridges the gap between ecological research and applied fisheries science, with a strong focus on quantitative methods, ecosystem based fisheries management, and sustainable fisheries.\nI regularly use R, RStudio, and GitHub to build tools, analyze complex datasets, and communicate findings. This site is a hub for my current projects, publications, and CV.\nSee what I’m working on now on the Projects page, or find my code on GitHub.\nWhether you’re a collaborator, a fellow scientist, or just curious about fisheries research, welcome!"
+    "text": "Hi, I’m Max Grezlik — Fishery Data Analyst\nI’m a fisheries scientist with a passion for data-driven solutions in marine conservation and resource management. My work bridges the gap between ecological research and applied fisheries science, with a strong focus on quantitative methods, ecosystem based fisheries management, and sustainable fisheries.\nI regularly use R, RStudio, and GitHub to build tools, analyze complex datasets, and communicate findings. This site is a hub for my current projects, publications, and CV.\nSee what I’m working on now on the Projects page. You can find my code on GitHub in two places: work for NOAA’s Northeast Fisheries Science Center is on my work account, MGrezlik, and personal projects, including this site, are on MaxGrezlik.\nWhether you’re a collaborator, a fellow scientist, or just curious about fisheries research, welcome!"
   }
 ]
