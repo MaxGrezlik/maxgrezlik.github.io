@@ -1,0 +1,72 @@
+---
+title: "Projects"
+toc: false
+---
+
+A selection of what I'm working on now. Most of my day-to-day work happens in the open through NOAA's Ecosystem Dynamics and Assessment Branch ([NOAA-EDAB](https://github.com/NOAA-EDAB)) on GitHub.
+
+## Current work
+
+::: {.project-grid}
+
+::: {.project-card}
+### State of the Ecosystem
+
+Workflows behind the annual State of the Ecosystem reports for the New England and Mid-Atlantic Fishery Management Councils, which summarize ecosystem indicators for managers.
+
+[ecodata](https://github.com/NOAA-EDAB/ecodata) · [NEFMC report](https://github.com/NOAA-EDAB/SOE-NEFMC) · [MAFMC report](https://github.com/NOAA-EDAB/SOE-MAFMC) · [Technical docs](https://github.com/NOAA-EDAB/tech-doc)
+:::
+
+::: {.project-card}
+### survdat
+
+An R package for pulling and working with NEFSC bottom trawl survey data.
+
+[GitHub](https://github.com/NOAA-EDAB/survdat) · [Documentation](https://noaa-edab.github.io/survdat/)
+:::
+
+::: {.project-card}
+### Rpath / Rsim fitting
+
+Fitting Rsim, the dynamic simulation component of the Rpath ecosystem model, to observed time series.
+
+[GitHub](https://github.com/NOAA-EDAB/Rpath)
+:::
+
+::: {.project-card}
+### Northeast risk policy indicators
+
+TODO: one-sentence description.
+
+<!-- [GitHub](https://github.com/...) -->
+:::
+
+:::
+
+## Past research
+
+::: {.project-grid}
+
+::: {.project-card}
+### Georges Bank portfolio management
+
+Portfolio-theory explorations using the GBRpath ecosystem model to support ecosystem-based management of Georges Bank fisheries.
+
+[GitHub](https://github.com/MaxGrezlik/GBRpath_Portfolio)
+:::
+
+:::
+
+## Community
+
+::: {.project-grid}
+
+::: {.project-card}
+### West End Neighborway
+
+Pedestrian-safety advocacy in New Bedford's West End with South Coast Places for People, including traffic simulations of proposed street changes.
+
+<!-- add a link once there's something public -->
+:::
+
+:::

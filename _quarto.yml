@@ -4,12 +4,20 @@ project:
 
 website:
   title: "Max Grezlik"
+  site-url: https://maxgrezlik.github.io
+  repo-url: https://github.com/MaxGrezlik/MaxGrezlik.github.io
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: projects.qmd
+        text: Projects
       - href: cv.qmd
         text: CV
+    right:
+      - icon: github
+        href: https://github.com/MaxGrezlik
+        aria-label: GitHub
 
 format:
   html:
@@ -20,4 +28,3 @@ format:
     toc: true
 
 editor: visual
-

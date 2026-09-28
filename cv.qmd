@@ -4,36 +4,36 @@ title: "Maxwell T. Grezlik"
 
 ## Work Experience
 
--   Fishery Data Analyst, IBSS Corporation, 2024 – Present
+- Fishery Data Analyst, IBSS Corporation, 2024 – Present
 
--   Research Assistant 
+- Research Assistant 
 
-    -   UMass Dartmouth School for Marine Science and Technology, 2021-Present  
+  - UMass Dartmouth School for Marine Science and Technology, 2021-Present  
 
-    -   California State Polytechnic University Humboldt, 2018-2021 
+  - California State Polytechnic University Humboldt, 2018-2021 
 
-    -   Michigan State University, 2015-2020 
+  - Michigan State University, 2015-2020 
 
--   National Marine Fisheries Service – Sea Grant Fellow, Population & Ecosystem Dynamics, 2023- Present 
+- National Marine Fisheries Service – Sea Grant Fellow, Population & Ecosystem Dynamics, 2023- Present 
 
--   Graduate Student Representative, 2022-2023 
+- Graduate Student Representative, 2022-2023 
 
--   Co-Organizer, South Coast MA UseR Group, 2021-2022 
+- Co-Organizer, South Coast MA UseR Group, 2021-2022 
 
--   Teaching assistant, California State Polytechnic University Humboldt, 2018 
+- Teaching assistant, California State Polytechnic University Humboldt, 2018 
 
--   Fisheries Observer, National Marine Fisheries Service, 2017 
+- Fisheries Observer, National Marine Fisheries Service, 2017 
 
--   Catch Monitor, Pacific States Marine Fisheries Commission, 2017 
+- Catch Monitor, Pacific States Marine Fisheries Commission, 2017 
 
--   Field Specialist, Virginia Institute of Marine Science, 2016 
+- Field Specialist, Virginia Institute of Marine Science, 2016 
 
 ## **Education** 
 
--   Ph.D. Student 2021-present, University of Massachusetts Dartmouth, School for Marine Science and Technology, Marine Science 
--   M.S. 2021, California State Polytechnic University Humboldt, Arcata CA; Natural Resources, Fisheries 
--   B.S. 2016, Michigan State University, East Lansing MI; Environmental Biology/Zoology 
-    -   Minor: Marine Ecosystem Management 
+- Ph.D. Student 2021-present, University of Massachusetts Dartmouth, School for Marine Science and Technology, Marine Science 
+- M.S. 2021, California State Polytechnic University Humboldt, Arcata CA; Natural Resources, Fisheries 
+- B.S. 2016, Michigan State University, East Lansing MI; Environmental Biology/Zoology 
+  - Minor: Marine Ecosystem Management 
 
 ## **Authorship** 
 
@@ -69,12 +69,12 @@ Grezlik, M., Buchheister, A., Chagaris, D., Miller, T., Schueller, A., Houde, E.
 
 ## **Workshops & Additional Training** 
 
--   Session Co-Host: Data-Driven, Community-Guided: Navigating the Future of Ecosystem-Based Fisheries Management, American Fisheries Society Annual Meeting, 2024 
--   Webinar Host: Ecosystem-Based Fisheries Management, American Fisheries Society, 2024 
--   Prototype Management Strategy Evaluation for Georges Bank Ecosystem-Based Fishery Management, New England Fisheries Management Council, 2022-2023 
--   Cooperative Research for New England Groundfish, Conservation Law Foundation, 2023 
--   Introduction to Management Strategy Evaluation, Dr. Gavin Fay, 2022 
--   Multispecies Modeling Applications in Fisheries Management, NMFS and SMAST, 2021 
--   Fisheries Dependent Data Workshops, Dr. Gavin Fay, 2021 
--   Ecopath with Ecosim Professional Training Course, Dr. Cameron Ainsworth, 2019 
--   Humboldt Bay Ecosystem Model Workshop, Confluence Environmental Company, 2019 
+- Session Co-Host: Data-Driven, Community-Guided: Navigating the Future of Ecosystem-Based Fisheries Management, American Fisheries Society Annual Meeting, 2024 
+- Webinar Host: Ecosystem-Based Fisheries Management, American Fisheries Society, 2024 
+- Prototype Management Strategy Evaluation for Georges Bank Ecosystem-Based Fishery Management, New England Fisheries Management Council, 2022-2023 
+- Cooperative Research for New England Groundfish, Conservation Law Foundation, 2023 
+- Introduction to Management Strategy Evaluation, Dr. Gavin Fay, 2022 
+- Multispecies Modeling Applications in Fisheries Management, NMFS and SMAST, 2021 
+- Fisheries Dependent Data Workshops, Dr. Gavin Fay, 2021 
+- Ecopath with Ecosim Professional Training Course, Dr. Cameron Ainsworth, 2019 
+- Humboldt Bay Ecosystem Model Workshop, Confluence Environmental Company, 2019 

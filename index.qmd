@@ -10,4 +10,6 @@ I'm a fisheries scientist with a passion for data-driven solutions in marine con
 
 I regularly use **R**, **RStudio**, and **GitHub** to build tools, analyze complex datasets, and communicate findings. This site is a hub for my current projects, publications, and CV.
 
+See what I'm working on now on the [Projects](projects.qmd) page, or find my code on [GitHub](https://github.com/MaxGrezlik).
+
 Whether you're a collaborator, a fellow scientist, or just curious about fisheries research, welcome!
