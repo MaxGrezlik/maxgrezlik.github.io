@@ -94,8 +94,19 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/MaxGrezlik"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -128,6 +139,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="hi-im-max-grezlik-fishery-data-analyst">Hi, I’m Max Grezlik — Fishery Data Analyst</h2>
 <p>I’m a fisheries scientist with a passion for data-driven solutions in marine conservation and resource management. My work bridges the gap between ecological research and applied fisheries science, with a strong focus on quantitative methods, ecosystem based fisheries management, and sustainable fisheries.</p>
 <p>I regularly use <strong>R</strong>, <strong>RStudio</strong>, and <strong>GitHub</strong> to build tools, analyze complex datasets, and communicate findings. This site is a hub for my current projects, publications, and CV.</p>
+<p>See what I’m working on now on the <a href="./projects.html">Projects</a> page, or find my code on <a href="https://github.com/MaxGrezlik">GitHub</a>.</p>
 <p>Whether you’re a collaborator, a fellow scientist, or just curious about fisheries research, welcome!</p>
 
 
@@ -206,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/maxgrezlik\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

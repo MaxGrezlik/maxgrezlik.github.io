@@ -1,10 +1,31 @@
 [
   {
-    "objectID": "index.html#hi-im-max-grezlik-fishery-data-analyst",
-    "href": "index.html#hi-im-max-grezlik-fishery-data-analyst",
-    "title": "Max Grezlik",
-    "section": "Hi, I’m Max Grezlik — Fishery Data Analyst",
-    "text": "Hi, I’m Max Grezlik — Fishery Data Analyst\nI’m a fisheries scientist with a passion for data-driven solutions in marine conservation and resource management. My work bridges the gap between ecological research and applied fisheries science, with a strong focus on quantitative methods, ecosystem based fisheries management, and sustainable fisheries.\nI regularly use R, RStudio, and GitHub to build tools, analyze complex datasets, and communicate findings. This site is a hub for my current projects, publications, and CV.\nWhether you’re a collaborator, a fellow scientist, or just curious about fisheries research, welcome!"
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A selection of what I’m working on now. Most of my day-to-day work happens in the open through NOAA’s Ecosystem Dynamics and Assessment Branch (NOAA-EDAB) on GitHub."
+  },
+  {
+    "objectID": "projects.html#current-work",
+    "href": "projects.html#current-work",
+    "title": "Projects",
+    "section": "Current work",
+    "text": "Current work\n\n\nState of the Ecosystem\nWorkflows behind the annual State of the Ecosystem reports for the New England and Mid-Atlantic Fishery Management Councils, which summarize ecosystem indicators for managers.\necodata · NEFMC report · MAFMC report · Technical docs\n\n\nsurvdat\nAn R package for pulling and working with NEFSC bottom trawl survey data.\nGitHub · Documentation\n\n\nRpath / Rsim fitting\nFitting Rsim, the dynamic simulation component of the Rpath ecosystem model, to observed time series.\nGitHub\n\n\nNortheast risk policy indicators\nTODO: one-sentence description."
+  },
+  {
+    "objectID": "projects.html#past-research",
+    "href": "projects.html#past-research",
+    "title": "Projects",
+    "section": "Past research",
+    "text": "Past research\n\n\nGeorges Bank portfolio management\nPortfolio-theory explorations using the GBRpath ecosystem model to support ecosystem-based management of Georges Bank fisheries.\nGitHub"
+  },
+  {
+    "objectID": "projects.html#community",
+    "href": "projects.html#community",
+    "title": "Projects",
+    "section": "Community",
+    "text": "Community\n\n\nWest End Neighborway\nPedestrian-safety advocacy in New Bedford’s West End with South Coast Places for People, including traffic simulations of proposed street changes."
   },
   {
     "objectID": "cv.html",
@@ -54,5 +75,12 @@
     "title": "Maxwell T. Grezlik",
     "section": "Workshops & Additional Training ",
     "text": "Workshops & Additional Training \n\nSession Co-Host: Data-Driven, Community-Guided: Navigating the Future of Ecosystem-Based Fisheries Management, American Fisheries Society Annual Meeting, 2024 \nWebinar Host: Ecosystem-Based Fisheries Management, American Fisheries Society, 2024 \nPrototype Management Strategy Evaluation for Georges Bank Ecosystem-Based Fishery Management, New England Fisheries Management Council, 2022-2023 \nCooperative Research for New England Groundfish, Conservation Law Foundation, 2023 \nIntroduction to Management Strategy Evaluation, Dr. Gavin Fay, 2022 \nMultispecies Modeling Applications in Fisheries Management, NMFS and SMAST, 2021 \nFisheries Dependent Data Workshops, Dr. Gavin Fay, 2021 \nEcopath with Ecosim Professional Training Course, Dr. Cameron Ainsworth, 2019 \nHumboldt Bay Ecosystem Model Workshop, Confluence Environmental Company, 2019"
+  },
+  {
+    "objectID": "index.html#hi-im-max-grezlik-fishery-data-analyst",
+    "href": "index.html#hi-im-max-grezlik-fishery-data-analyst",
+    "title": "Max Grezlik",
+    "section": "Hi, I’m Max Grezlik — Fishery Data Analyst",
+    "text": "Hi, I’m Max Grezlik — Fishery Data Analyst\nI’m a fisheries scientist with a passion for data-driven solutions in marine conservation and resource management. My work bridges the gap between ecological research and applied fisheries science, with a strong focus on quantitative methods, ecosystem based fisheries management, and sustainable fisheries.\nI regularly use R, RStudio, and GitHub to build tools, analyze complex datasets, and communicate findings. This site is a hub for my current projects, publications, and CV.\nSee what I’m working on now on the Projects page, or find my code on GitHub.\nWhether you’re a collaborator, a fellow scientist, or just curious about fisheries research, welcome!"
   }
 ]

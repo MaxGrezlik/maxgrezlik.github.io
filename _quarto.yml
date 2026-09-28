@@ -16,8 +16,12 @@ website:
         text: CV
     right:
       - icon: github
-        href: https://github.com/MaxGrezlik
         aria-label: GitHub
+        menu:
+          - text: Work (MGrezlik)
+            href: https://github.com/MGrezlik
+          - text: Personal (MaxGrezlik)
+            href: https://github.com/MaxGrezlik
 
 format:
   html:

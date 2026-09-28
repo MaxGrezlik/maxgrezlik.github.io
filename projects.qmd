@@ -3,7 +3,7 @@ title: "Projects"
 toc: false
 ---
 
-A selection of what I'm working on now. Most of my day-to-day work happens in the open through NOAA's Ecosystem Dynamics and Assessment Branch ([NOAA-EDAB](https://github.com/NOAA-EDAB)) on GitHub.
+A selection of what I'm working on now. I keep two GitHub accounts. My work for NOAA's Northeast Fisheries Science Center is done under my work account, [MGrezlik](https://github.com/MGrezlik), and much of it lives in the Ecosystem Dynamics and Assessment Branch organization, [NOAA-EDAB](https://github.com/NOAA-EDAB). This website and my personal and past research projects live on my personal account, [MaxGrezlik](https://github.com/MaxGrezlik).
 
 ## Current work
 
