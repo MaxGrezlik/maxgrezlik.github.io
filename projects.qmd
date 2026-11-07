@@ -12,33 +12,47 @@ A selection of what I'm working on now. I keep two GitHub accounts. My work for 
 ::: {.project-card}
 ### State of the Ecosystem
 
-Workflows behind the annual State of the Ecosystem reports for the New England and Mid-Atlantic Fishery Management Councils, which summarize ecosystem indicators for managers.
+I automate and maintain several of the ecosystem indicators in the annual State of the Ecosystem reports for the New England and Mid-Atlantic Fishery Management Councils, which give managers a yearly summary of ecosystem conditions.
 
 [ecodata](https://github.com/NOAA-EDAB/ecodata) · [NEFMC report](https://github.com/NOAA-EDAB/SOE-NEFMC) · [MAFMC report](https://github.com/NOAA-EDAB/SOE-MAFMC) · [Technical docs](https://github.com/NOAA-EDAB/tech-doc)
 :::
 
 ::: {.project-card}
+### Thermal habitat suitability indicator
+
+For the New England Fishery Management Council's Risk Policy, I developed an indicator of thermal habitat suitability that tracks how ocean temperatures are changing the habitat available to managed species. It will appear in this year's State of the Ecosystem report.
+
+[In development]{.card-tag}
+:::
+
+:::
+
+## R packages I maintain
+
+::: {.project-grid}
+
+::: {.project-card}
+### Rpath
+
+An R implementation of the Ecopath with Ecosim food web model, used to build mass-balance ecosystem models and simulate them over time. My work includes fitting Rsim, its dynamic simulation component, to observed time series.
+
+[Documentation](https://noaa-edab.github.io/Rpath/) · [GitHub](https://github.com/NOAA-EDAB/Rpath)
+:::
+
+::: {.project-card}
 ### survdat
 
-An R package for pulling and working with NEFSC bottom trawl survey data.
+Pulls and processes data from the NEFSC bottom trawl surveys, with tools for calculating stratified means and other survey-based indices.
 
-[GitHub](https://github.com/NOAA-EDAB/survdat) · [Documentation](https://noaa-edab.github.io/survdat/)
+[Documentation](https://noaa-edab.github.io/survdat/) · [GitHub](https://github.com/NOAA-EDAB/survdat)
 :::
 
 ::: {.project-card}
-### Rpath / Rsim fitting
+### comlandr
 
-Fitting Rsim, the dynamic simulation component of the Rpath ecosystem model, to observed time series.
+Pulls and processes commercial fishery landings data for the Northeast US, preparing them for use in assessments and ecosystem models.
 
-[GitHub](https://github.com/NOAA-EDAB/Rpath)
-:::
-
-::: {.project-card}
-### Northeast risk policy indicators
-
-TODO: one-sentence description.
-
-<!-- [GitHub](https://github.com/...) -->
+[Documentation](https://noaa-edab.github.io/comlandr/) · [GitHub](https://github.com/NOAA-EDAB/comlandr)
 :::
 
 :::

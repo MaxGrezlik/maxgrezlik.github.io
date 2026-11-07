@@ -199,6 +199,18 @@ a {
   }
 }
 
+// small label on a card, e.g. [In development]{.card-tag}
+.card-tag {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: $deep;
+  background: rgba($seafoam, 0.35);
+}
+
 // --- CV lists: teal markers
 main ul li::marker {
   color: $current;
