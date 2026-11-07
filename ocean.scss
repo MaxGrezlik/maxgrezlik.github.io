@@ -1,0 +1,217 @@
+/*-- scss:defaults --*/
+
+// Ocean palette
+$abyss:     #0b2a42;   // deep water: navbar, footer, headings
+$deep:      #12466b;   // mid-depth blue
+$current:   #157a8a;   // teal: links, accents
+$seafoam:   #8fd3cf;   // light aqua highlights
+$shallows:  #eaf5f6;   // pale water tint
+$sand:      #fbf9f4;   // page background
+$buoy:      #e2734f;   // buoy orange: hover / small accents
+
+$body-bg:    $sand;
+$body-color: #22313f;
+$primary:    $current;
+$secondary:  $deep;
+$link-color: $current;
+$link-hover-color: $buoy;
+
+$navbar-bg:  $abyss;
+$navbar-fg:  #e6f2f4;
+$navbar-hl:  $seafoam;
+
+$footer-bg:  $abyss;
+$footer-fg:  #cfe3e8;
+
+$headings-color: $abyss;
+$headings-font-weight: 600;
+
+$font-family-sans-serif: "Source Sans 3", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$headings-font-family: "Fraunces", Georgia, "Times New Roman", serif;
+$font-size-root: 17px;
+
+$border-radius: 10px;
+
+/*-- scss:rules --*/
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;600&display=swap");
+
+// --- Page background: faint bathymetry contour lines, fading toward the bottom
+body {
+  background-color: $sand;
+  background-image:
+    linear-gradient(180deg, rgba($shallows, 0.9) 0%, rgba($sand, 0) 420px),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='300' viewBox='0 0 600 300'%3E%3Cg fill='none' stroke='%23157a8a' stroke-opacity='0.07' stroke-width='1.2'%3E%3Cpath d='M0 40 C100 10 200 70 300 40 S500 10 600 40'/%3E%3Cpath d='M0 100 C120 70 180 130 300 100 S480 70 600 100'/%3E%3Cpath d='M0 160 C90 130 210 190 300 160 S510 130 600 160'/%3E%3Cpath d='M0 220 C110 190 190 250 300 220 S490 190 600 220'/%3E%3Cpath d='M0 280 C100 250 200 310 300 280 S500 250 600 280'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat, repeat;
+  background-attachment: scroll, fixed;
+}
+
+// --- Navbar with a wave edge underneath
+.navbar {
+  box-shadow: none;
+  position: relative;
+
+  .navbar-brand, .navbar-title {
+    font-family: $headings-font-family;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .nav-link {
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+}
+
+#quarto-header::after {
+  content: "";
+  display: block;
+  height: 18px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 18' preserveAspectRatio='none'%3E%3Cpath d='M0 0 H1200 V6 C1050 18 900 0 750 8 S450 18 300 8 S100 2 0 10 Z' fill='%230b2a42'/%3E%3C/svg%3E") no-repeat;
+  background-size: 100% 100%;
+}
+
+// --- Headings
+h1, h2, h3, .title {
+  font-family: $headings-font-family;
+  color: $abyss;
+}
+
+h2 {
+  border-bottom: none;
+  padding-bottom: 0.35rem;
+  margin-top: 2.2rem;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 64px;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, $current, $seafoam);
+  }
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+// --- Home page hero
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  margin: 0.5rem 0 2rem;
+  padding: 2rem 2rem 3.25rem;
+  border-radius: 16px;
+  color: #f2f9fa;
+  position: relative;
+  overflow: hidden;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0 60 C150 20 300 100 450 60 S750 20 900 60 S1100 100 1200 60 V120 H0 Z' fill='%238fd3cf' fill-opacity='0.10'/%3E%3Cpath d='M0 85 C200 55 350 115 600 85 S1000 55 1200 85 V120 H0 Z' fill='%23157a8a' fill-opacity='0.35'/%3E%3C/svg%3E") bottom / 100% 70px no-repeat,
+    linear-gradient(160deg, $deep 0%, $abyss 55%, darken($abyss, 4%) 100%);
+
+  img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgba($seafoam, 0.85);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+    margin: 0;
+  }
+
+  h2 {
+    color: #ffffff;
+    margin: 0 0 0.4rem;
+    &::after { display: none; }
+  }
+
+  p {
+    margin: 0;
+    color: $seafoam;
+    font-size: 1.05rem;
+    letter-spacing: 0.02em;
+  }
+
+  // small fish silhouette swimming along the waterline
+  &::after {
+    content: "";
+    position: absolute;
+    right: 8%;
+    bottom: 34px;
+    width: 46px;
+    height: 20px;
+    opacity: 0.35;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 46 20'%3E%3Cpath d='M2 10 C10 1 26 0 36 10 C26 20 10 19 2 10 Z M34 10 L46 2 L43 10 L46 18 Z' fill='%238fd3cf'/%3E%3Ccircle cx='9' cy='9' r='1.4' fill='%230b2a42'/%3E%3C/svg%3E") no-repeat center / contain;
+  }
+
+  @media (max-width: 576px) {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.75rem 1.25rem 3rem;
+  }
+}
+
+// --- Project cards
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.project-card {
+  background: #ffffff;
+  border: 1px solid rgba($current, 0.18);
+  border-top: 4px solid $current;
+  border-radius: 12px;
+  padding: 1.1rem 1.3rem;
+  box-shadow: 0 2px 10px rgba($abyss, 0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba($abyss, 0.12);
+    border-top-color: $buoy;
+  }
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// --- CV lists: teal markers
+main ul li::marker {
+  color: $current;
+}
+
+// --- Footer with a wave on top
+.nav-footer {
+  position: relative;
+  margin-top: 3rem;
+  border-top: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -22px;
+    height: 23px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 23' preserveAspectRatio='none'%3E%3Cpath d='M0 12 C150 0 300 22 450 12 S750 0 900 12 S1100 22 1200 10 V23 H0 Z' fill='%230b2a42'/%3E%3C/svg%3E") no-repeat;
+    background-size: 100% 100%;
+  }
+
+  a { color: $seafoam; }
+}

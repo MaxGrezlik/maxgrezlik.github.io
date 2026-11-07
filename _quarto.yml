@@ -22,13 +22,14 @@ website:
             href: https://github.com/MGrezlik
           - text: Personal (MaxGrezlik)
             href: https://github.com/MaxGrezlik
+  page-footer:
+    center: "Max Grezlik · Fisheries science & ecosystem-based management"
 
 format:
   html:
     theme:
-      - journal
-      - brand
-    css: styles.css
+      - cosmo
+      - ocean.scss
     toc: true
 
 editor: visual

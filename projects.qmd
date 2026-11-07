@@ -57,6 +57,10 @@ Portfolio-theory explorations using the GBRpath ecosystem model to support ecosy
 
 :::
 
+::: {.content-hidden}
+<!-- Community section hidden until the Neighborway project is further along.
+     Delete this .content-hidden wrapper (this ::: line and the last ::: in the file) to show it again. -->
+
 ## Community
 
 ::: {.project-grid}
@@ -67,6 +71,8 @@ Portfolio-theory explorations using the GBRpath ecosystem model to support ecosy
 Pedestrian-safety advocacy in New Bedford's West End with South Coast Places for People, including traffic simulations of proposed street changes.
 
 <!-- add a link once there's something public -->
+:::
+
 :::
 
 :::

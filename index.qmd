@@ -2,9 +2,15 @@
 format: html
 ---
 
-![](images/headshot.jpg){width="150px" style="border-radius: 50%; margin-bottom: 1rem;"}
+::: {.hero}
+![](images/headshot.jpg){fig-alt="Headshot of Max Grezlik"}
 
-## Hi, I’m Max Grezlik — Fishery Data Analyst
+::: {.hero-text}
+## Hi, I’m Max Grezlik
+
+Fishery Data Analyst · NOAA Northeast Fisheries Science Center
+:::
+:::
 
 I'm a fisheries scientist with a passion for data-driven solutions in marine conservation and resource management. My work bridges the gap between ecological research and applied fisheries science, with a strong focus on quantitative methods, ecosystem based fisheries management, and sustainable fisheries.
 
