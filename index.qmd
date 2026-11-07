@@ -3,7 +3,7 @@ format: html
 ---
 
 ::: {.hero}
-![](images/headshot.jpg){fig-alt="Headshot of Max Grezlik"}
+![](images/headshot-square.jpg){fig-alt="Headshot of Max Grezlik"}
 
 ::: {.hero-text}
 ## Hi, I’m Max Grezlik
